@@ -1,0 +1,42 @@
+*::selection,
+*::-moz-selection {
+  background: #8257e6;
+}
+
+main {
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+h1 {
+  font-family: Inter, sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  max-width: 940px;
+  text-align: center;
+  line-height: 120%;
+  letter-spacing: -0.75px;
+  z-index: 1;
+}
+
+#ui {
+  position: relative;
+}
+
+#ui svg {
+  position: absolute;
+  left: -23%;
+  bottom: -4%;
+}
+
+#hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
