@@ -16,7 +16,7 @@ Projeto clonado da live _Ignite Nitro Design_ da [**Rocketseat**](https://www.ro
 
 Esse projeto foi feito utilizando as seguintes tecnologias:
 
-- NextJS, React e TypeScript
+- Vite, React e TypeScript
 - CSS
 - Framer Motion
 - Git e Github
